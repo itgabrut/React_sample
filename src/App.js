@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Table from './Table';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+		{/*<p>Hi pretty girls</p>*/}
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -19,6 +21,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <div class="container">
+        <Table/>
+      </div>
+      <footer className="App-footer">
+        <p>Footer</p>
+      </footer>
     </div>
   );
 }

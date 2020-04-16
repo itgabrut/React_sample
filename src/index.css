@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.add-laf-table-row{
+  float: left;
+  margin: 5px;
+  color: #86b6da;
+  cursor: pointer;
+}
+
+.add-laf-table-row-disabled{
+  cursor: not-allowed !important;
+  font-size: 16px;
+  color: #86b6da !important;
+}
+
+.idColumn{
+  display: none;
+}
+
+.saveRow{
+  cursor: pointer;
+}
+
+.disabledInput{
+  border: none;
+  background: inherit!important;
+}
+
+.left{
+  float: left;
+}
+
+.deletebtn{
+  float: left;
+  position: relative;
+  left: 4rem;
+  margin: 0px;
+  padding: 2px 5px;
+}
+/*.saveColumn{*/
+  /*display: none;*/
+/*}*/

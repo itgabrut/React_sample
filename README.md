@@ -1,3 +1,16 @@
+This is a simple React Table for displaying List of Employees and their salaries.
+It uses REST WS (https://github.com/itgabrut/employee_service)
+For correct work REST WS should be deployed at localhost:8080
+
+## Functionality:
+
+1) Add Employee: press plus sign under the table.
+2) Edit Salary: it is possible inline in table. To save modifications press check mark.
+3) Remove ALL: Red button below the table. It requires credentials (USER/USER).
+
+
+-------------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
